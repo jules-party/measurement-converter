@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "convert-units": "^2.3.4"
+  },
+  "name": "measure-converter",
+  "version": "1.0.0",
+  "main": "convert.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "rm ./bundle.js && browserify ./convert.js > bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module"
+}
